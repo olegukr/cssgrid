@@ -3,38 +3,17 @@ body{
     color: aliceblue;
 }
 
-li{
-    color: rgba(81, 255, 0, 0.701);
-}
-
-p{
-    color: blanchedalmond;
-}
-
-#id-tomate {
-    color: red;
-}
-
-p::first-letter{
-    color: brown;
-    font-size: 2em;
-}
-
-.descuento{
-    color: green;
-}
-
-.list{
-    background-color: grey;
-}
-
 p:hover{
     color: red;
 }
 
-#imagen-ballena{
-    width: 500px;
-    height: 500px;
+.image{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    /* grid-template-columns: repeat(10 , 1fx);
+    grid-template-rows: repeat(3 , 1fx); */
 }
+
 
 /* Es un commenrario Padding, Margin, vh, wh, %, px, min-width, max-width, *{}
