@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(129, 125, 125);
+    color: aliceblue;
+}
+
+li{
+    color: rgba(81, 255, 0, 0.701);
+}
+
+p{
+    color: blanchedalmond;
+}
+
+#id-tomate {
+    color: red;
+}
+
+p::first-letter{
+    color: brown;
+    font-size: 2em;
+}
+
+.descuento{
+    color: green;
+}
+
+.list{
+    background-color: grey;
+}
+
+p:hover{
+    color: red;
+}
+
+#imagen-ballena{
+    width: 500px;
+    height: 500px;
+}
+
+/* Es un commenrario Padding, Margin, vh, wh, %, px, min-width, max-width, *{}
